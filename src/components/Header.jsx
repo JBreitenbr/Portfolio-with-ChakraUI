@@ -12,24 +12,24 @@ import { Box, HStack } from "@chakra-ui/react";
 const socials = [
   {
     icon: faEnvelope,
-    url: "mailto: hello@example.com",
+    url: "mailto: julia.breitenbruch@gmail.com",
   },
   {
     icon: faGithub,
-    url: "https://github.com",
+    url: "https://github.com/JBreitenbr",
   },
   {
     icon: faLinkedin,
-    url: "https://www.linkedin.com",
+    url: "https://www.linkedin.com/in/julia-breitenbruch-954843283",
   },
-  {
+  /*{
     icon: faMedium,
     url: "https://medium.com",
   },
   {
     icon: faStackOverflow,
     url: "https://stackoverflow.com",
-  },
+  },*/
 ];
 
 const Header = () => {
@@ -54,13 +54,13 @@ const Header = () => {
       transitionProperty="transform"
       transitionDuration=".3s"
       transitionTimingFunction="ease-in-out"
-      backgroundColor="#18181b"
+      backgroundColor="#363636"
     >
       <Box color="white" maxWidth="1280px" margin="0 auto">
         <HStack
-          px={16}
+          px={12}
           py={4}
-          justifyContent="space-between"
+          justifyContent="space-evenly"
           alignItems="center"
         >
           <nav>
