@@ -23,12 +23,12 @@ const Card = ({ title, description, imageSrc,demoUrl }) => {
           padding: '10px',
         }} alignItems="flex-start">
 
-          <Heading style={{"fontFamily":"Oxygen","color":"#363636"}} size="xs">{title}</Heading>
+          <Heading style={{"fontFamily":"Futura","color":"#363636"}} size="sm" noOfLines={1}>{title}</Heading>
 
-          <Text style={{"fontFamily":"Oxygen","color":"darkgrey"}}>{description}</Text>
+          <Text style={{"fontFamily":"Oxygen","color":"darkgrey","fontSize":"12px"}}>{description}</Text>
 
           <Heading size="xs">
-            <a href={demoUrl} target="_blank">See More <FontAwesomeIcon icon={faArrowRight} size="1x" />
+            <a href={demoUrl} target="_blank">Demo <FontAwesomeIcon icon={faArrowRight} size="1x" />
           </a>
           </Heading>
 

@@ -10,25 +10,25 @@ const projects = [
   {
     title: "Little Lemon",
     description:
-      "xxx",
+      "Webpage written in Vanilla Javascript",
     getImageSrc: () => photo1,demoUrl:"https://jbreitenbr.github.io/little-lemon-sketch/"
   },
   {
     title: "spotiStats",
     description:
-      "xxx",
+      "Analyzes features of the songs I streamed",
     getImageSrc: () => photo2,demoUrl:"https://jbreitenbr.github.io/spotiStats/"
   },
   {
     title: "World Happiness",
     description:
-      "xxx",
+      "Visualization of world happiness data",
     getImageSrc: () => photo3,demoUrl:  "https://jbreitenbr.github.io/Happiness-DataViz-2022/"
   },
   {
     title: "Africa Measures",
     description:
-      "xxx",
+      "Visualization of demographic data",
     getImageSrc: () => photo4,demoUrl:"https://jbreitenbr.github.io/Africa-Measures/"
   },
 ];
@@ -56,6 +56,7 @@ const ProjectsSection = () => {
             title={project.title}
             description={project.description}
             imageSrc={project.getImageSrc()}
+            demoUrl={project.demoUrl}
           />
         ))}
       </Box>
