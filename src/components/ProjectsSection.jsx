@@ -11,25 +11,25 @@ const projects = [
     title: "Little Lemon",
     description:
       "xxx",
-    getImageSrc: () => photo1,
+    getImageSrc: () => photo1,demoUrl:"https://jbreitenbr.github.io/little-lemon-sketch/"
   },
   {
     title: "spotiStats",
     description:
       "xxx",
-    getImageSrc: () => photo2,
+    getImageSrc: () => photo2,demoUrl:"https://jbreitenbr.github.io/spotiStats/"
   },
   {
     title: "World Happiness",
     description:
       "xxx",
-    getImageSrc: () => photo3,
+    getImageSrc: () => photo3,demoUrl:  "https://jbreitenbr.github.io/Happiness-DataViz-2022/"
   },
   {
     title: "Africa Measures",
     description:
       "xxx",
-    getImageSrc: () => photo4,
+    getImageSrc: () => photo4,demoUrl:"https://jbreitenbr.github.io/Africa-Measures/"
   },
 ];
 
@@ -42,7 +42,7 @@ const ProjectsSection = () => {
       alignItems="flex-start"
       spacing={8}
     >
-      <Heading as="h1" id="projects-section" style={{"color":"#363636"}}>
+      <Heading as="h1" id="projects-section" style={{"fontFamily":"Oxygen","color":"#363636"}}>
         Featured Projects
       </Heading>
       <Box

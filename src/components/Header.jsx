@@ -60,7 +60,7 @@ const Header = () => {
         <HStack
           px={12}
           py={4}
-          justifyContent="space-evenly"
+          justifyContent="space-between"
           alignItems="center"
         >
           <nav>

@@ -23,15 +23,15 @@ const LandingSection = () => (
             size="2xl"
             name="Julia Breitenbruch"
         />    
-        <Heading as="h3" size="xl" noOfLines={1}>
+        <Heading as="h3" size="xl" noOfLines={1} style={{"fontFamily":"Oxygen"}}>
             {greeting}
         </Heading><img src={wordcloud} style={{height:"120px"}}/>
         </VStack>
         <VStack spacing={4}>
-        <Heading as="h4" size="xl" noOfLines={1}>
+        <Heading as="h4" size="xl" noOfLines={1} style={{"fontFamily":"Oxygen"}}>
             {bio1}
         </Heading>
-        <Heading as="h4" size="xl" noOfLines={1}>
+        <Heading as="h4" size="xl" noOfLines={1} style={{"fontFamily":"Oxygen"}}>
             {bio2}
         </Heading>
         </VStack>

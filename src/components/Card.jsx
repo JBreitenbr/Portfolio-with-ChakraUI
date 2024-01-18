@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 
-const Card = ({ title, description, imageSrc }) => {
+const Card = ({ title, description, imageSrc,demoUrl }) => {
   // Implement the UI for the Card component according to the instructions.
   // You should be able to implement the component with the elements imported above.
   // Feel free to import other UI components from Chakra UI if you wish to.
@@ -28,7 +28,7 @@ const Card = ({ title, description, imageSrc }) => {
           <Text style={{"fontFamily":"Oxygen","color":"darkgrey"}}>{description}</Text>
 
           <Heading size="xs">
-            <a href="#">See More <FontAwesomeIcon icon={faArrowRight} size="1x" />
+            <a href={demoUrl} target="_blank">See More <FontAwesomeIcon icon={faArrowRight} size="1x" />
           </a>
           </Heading>
 
