@@ -22,7 +22,7 @@ const socials = [
     icon: faLinkedin,
     url: "https://www.linkedin.com/in/julia-breitenbruch-954843283",
   },
-  /*{
+ /* {
     icon: faMedium,
     url: "https://medium.com",
   },
@@ -58,32 +58,25 @@ const Header = () => {
     >
       <Box color="white" maxWidth="1280px" margin="0 auto">
         <HStack
-          px={12}
+          px={16}
           py={4}
-          justifyContent="space-around"
+          justifyContent="space-between"
           alignItems="center"
         >
           <nav>
-            {/* Add social media links based on the `socials` data */}
-          {socials.map(({ icon, url }) => (
-                <a
-                    key={url}
-                    href={url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-             style={{"marginRight":"5px"}}   >
-                    <FontAwesomeIcon icon={icon} size="2x" key={url} />
-                </a>
-                ))}</nav>
+            <HStack spacing={3}>
+            {socials.map((social) => (
+              <a href={social.url}>
+                <FontAwesomeIcon icon={social.icon} size="2x"/> 
+              </a>
+            ))}
+            </HStack>
+          </nav>
           <nav>
             <HStack spacing={8}>
-              {/* Add links to Projects and Contact me section */}
-         <a href="#projects" onClick={handleClick("projects")}>
-                Projects
-                </a>
-                <a href="#contactme" onClick={handleClick("contactme")}>
-                Contact Me
-                </a>   </HStack>
+              <a href="/#projects-section" onClick={()=>handleClick("projects")}>Projects</a>
+              <a href="/#contactme-section" onClick={()=>handleClick("contactme")}>Contact</a>
+            </HStack>
           </nav>
         </HStack>
       </Box>
@@ -91,3 +84,5 @@ const Header = () => {
   );
 };
 export default Header;
+
+
