@@ -72,7 +72,7 @@ const Header = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <FontAwesomeIcon icon={icon} style={{marginLeft:"2px"}} size="2x" key={url} />
+                    <FontAwesomeIcon icon={icon} style={{marginLeft:"5px"}} size="2x" key={url} />
                 </a>
                 ))}</nav>
           <nav>
