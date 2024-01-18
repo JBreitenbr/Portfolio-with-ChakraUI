@@ -8,28 +8,28 @@ import photo3 from '../images/photo3.jpg';
 import photo4 from '../images/photo4.jpg';
 const projects = [
   {
-    title: "React Space",
+    title: "Little Lemon",
     description:
-      "Handy tool belt to create amazing AR components in a React app, with redux integration via middleware️",
+      "xxx",
     getImageSrc: () => photo1,
   },
   {
-    title: "React Infinite Scroll",
+    title: "spotiStats",
     description:
-      "A scrollable bottom sheet with virtualisation support, native animations at 60 FPS and fully implemented in JS land 🔥️",
-    getImageSrc: () => photo4,
+      "xxx",
+    getImageSrc: () => photo2,
   },
   {
-    title: "Photo Gallery",
+    title: "World Happiness",
     description:
-      "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income",
+      "xxx",
     getImageSrc: () => photo3,
   },
   {
-    title: "Event planner",
+    title: "Africa Measures",
     description:
-      "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps",
-    getImageSrc: () => photo2,
+      "xxx",
+    getImageSrc: () => photo4,
   },
 ];
 
@@ -42,7 +42,7 @@ const ProjectsSection = () => {
       alignItems="flex-start"
       spacing={8}
     >
-      <Heading as="h1" id="projects-section">
+      <Heading as="h1" id="projects-section" style={{"color":"#363636"}}>
         Featured Projects
       </Heading>
       <Box

@@ -23,9 +23,9 @@ const Card = ({ title, description, imageSrc }) => {
           padding: '10px',
         }} alignItems="flex-start">
 
-          <Heading size="md">{title}</Heading>
+          <Heading style={{"fontFamily":"Oxygen","color":"#363636"}} size="xs">{title}</Heading>
 
-          <Text>{description}</Text>
+          <Text style={{"fontFamily":"Oxygen","color":"darkgrey"}}>{description}</Text>
 
           <Heading size="xs">
             <a href="#">See More <FontAwesomeIcon icon={faArrowRight} size="1x" />

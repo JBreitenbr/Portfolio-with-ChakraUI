@@ -54,7 +54,7 @@ const Header = () => {
       transitionProperty="transform"
       transitionDuration=".3s"
       transitionTimingFunction="ease-in-out"
-      backgroundColor="#363636"
+      backgroundColor="#18181b"
     >
       <Box color="white" maxWidth="1280px" margin="0 auto">
         <HStack
@@ -71,7 +71,7 @@ const Header = () => {
                     href={url}
                     target="_blank"
                     rel="noopener noreferrer"
-                >
+             style={{"marginRight":"5px"}}   >
                     <FontAwesomeIcon icon={icon} size="2x" key={url} />
                 </a>
                 ))}</nav>
